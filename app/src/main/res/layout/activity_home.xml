@@ -1,0 +1,421 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dimas.sispaksapi.Home">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+
+
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan1"
+               android:text="Apakah Sapi Demam?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan2"
+               android:text="Apakah Sapi Lemah dan Mudah Ambruk?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan3"
+               android:text="Apakah Sapi mempunyai Radang pada bagian limpa?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan4"
+               android:text="Apakah Sapi Diare?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan5"
+               android:text="Apakah Banyak Pendarahan pada beberapa bagian tubuh?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan6"
+               android:text="Apakah sapi nafas terengah-engah/pernafasan terganggu/kesulitan bernafas?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan7"
+               android:text="Apakah Sapi cepat Lelah?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan8"
+               android:text="Apakah gerakan sapi tidak teratur?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan9"
+               android:text="Nafsu Makan Sapi menurun?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan10"
+               android:text="Apakah Sapi cepat lelah?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan11"
+               android:text="Apakah Bulu sapi rontok?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan12"
+               android:text="Apakah Celah kuku dan Tumit Bengkak?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan13"
+               android:text="Keluar cairan kuning dan berbau busuk pada kuku?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan14"
+               android:text="Mengelupasnya selaput pada bagian kuku?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan15"
+               android:text="Sapi pincang saat bergerak dan kesakitan?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan16"
+               android:text="Perut bagian kiri sapi membesar?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan17"
+               android:text="Sapi Gemetar?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan18"
+               android:text="Sapi Lesu?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan19"
+               android:text="Sapi malas atau susah bergerak dan berdiri"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan20"
+               android:text="Timbul cairan pada bagian hidung dan mata"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan21"
+               android:text="Sapi meneteskan Air Liur?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan22"
+               android:text="Bagian Moncong Kering"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan23"
+               android:text="Sapi keluar nanah?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan24"
+               android:text="Mata sapi keruh dan memutih?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan25"
+               android:text="Kulit Terlupas"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan26"
+               android:text="Sapi kurus?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan27"
+               android:text="Sapi menggigit bagian tubuhnya?"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan28"
+               android:text="Sapi menggosok badan ke kandang"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan29"
+               android:text="Kulit berkerak,menebal dan terkesan kaku"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan30"
+               android:text="Mata sayu dan berair"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan31"
+               android:text="Paru-paru meradang"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan32"
+               android:text="Feses lembek"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan33"
+               android:text="Keguguran pada bulan 5-8"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan34"
+               android:text="Sapi mengeluarkan cairan vaginal yang berwarna keruh"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan35"
+               android:text="Sapi jantan memperlihatkan gejala epididimitis dan orchitis"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan36"
+               android:text="Adanya retensi plasenta"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan37"
+               android:text="Adanya Endometritis"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan38"
+               android:text="Pangkal kaki bagian belakang pincang"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan39"
+               android:text="Pernafasan Meningkat"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan40"
+               android:text="Gigi Gemertak"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan41"
+               android:text="Sapi ngorok"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan42"
+               android:text="Mata terbelalak"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan43"
+               android:text="Kesulitan Menelan"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan44"
+               android:text="Pembengkakan pada persendian lutut"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan45"
+               android:text="Selaput lendir kemerahan"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan46"
+               android:text="Terdapat busung pada bagian kepala, tenggorokan, leher bagian bawah sampai gelambir"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan47"
+               android:text="Sapi Sembelit"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan48"
+               android:text="Bulu kusam dan berdiri"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan49"
+               android:text="Terdapat busung pada perut"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan50"
+               android:text="Peradangan pada lidah dan mulut bagian dalam"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan51"
+               android:text="Adanya lepuh pada gusi, lidah, dan pangkal lidah"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan52"
+               android:text="Lepuh pada ambing dan puting ternak betina"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan53"
+               android:text="Keguguran pada ternak betina"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan54"
+               android:text="Selaput lendir lidah terkelupas"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan55"
+               android:text="Lepuh-lepuh diantara teracak dan sekitas batas atas kuku"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan56"
+               android:text="Erosi pada mukosa mulut"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan57"
+               android:text="Pembengkakan limfonodus"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan58"
+               android:text="Perdarahan titik pada membran mukosa"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan59"
+               android:text="Keringat darah"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan60"
+               android:text="Keluar darah pada hidung dan dubur"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan61"
+               android:text="Otot yang terluka berbintik merah dan terasa krepitasi"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan62"
+               android:text="Konjunctivis"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan63"
+               android:text="Hidung basah berlendir"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan64"
+               android:text="Peradangan pada vulva dan vagina"
+               />
+           <CheckBox
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/pertanyaan65"
+               android:text="Peradangan pada glans penis"
+               />
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Hitung"
+               android:id="@+id/hitung"
+               />
+
+
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
